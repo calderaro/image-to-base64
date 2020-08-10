@@ -1,0 +1,32 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inputContainer {
+  padding: 1em;
+}
+
+.inputContainer > input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 2.6em;
+  width: 100%;
+}
+
+.inputContainer > textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 6em;
+  width: 100%;
+}
+
+.buttonsContainer {
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buttonsContainer > button {
+  height: 2.6em;
+  width: 10em;
+}
